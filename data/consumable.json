@@ -1,0 +1,10 @@
+{
+	"name": "banana",
+	"type": "food",
+	"effect": 
+	[
+		{
+			"hp": 5, "hunger": -5
+		}
+	]
+}

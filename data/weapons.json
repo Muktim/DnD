@@ -1,0 +1,11 @@
+{
+	"name": "dagger",
+	"type": "one-handed melee",
+	"stats":
+	[
+		{
+			"damage": 5,
+			"durability": 5
+		}
+	]
+}
