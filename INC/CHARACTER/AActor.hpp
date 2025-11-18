@@ -6,7 +6,7 @@
 /*   By: mcoskune <mcoskune@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 11:56:12 by mcoskune          #+#    #+#             */
-/*   Updated: 2025/11/17 14:22:45 by mcoskune         ###   ########.fr       */
+/*   Updated: 2025/11/18 13:03:10 by mcoskune         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,13 @@ class AActor
 		
 
 	private:
+
+
+
+	
 		// int16_t		_xPos;
 		// int16_t		_yPos;
-		// uint16_t	_zPos;
+		// int16_t		_zPos;
 
 
 		// std::string	_name;
