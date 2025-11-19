@@ -1,20 +1,22 @@
 include .env
 export
 
-RUNCOMMAND= ./dnd ${numPlayer} ${playerClasses}
+RUNCOMMAND= ./DnD ${numPlayer} ${playerClasses}
 
 NAME = DnD
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -g3
+CFLAGS = -Wall -Wextra -Werror -g3 -fsanitize=address
 
-INC_PATH = ./INC/
+INC_PATH = ./INC/UTILITY
+#./INC/CHARACTER ./INC/ENVIRONMENT ./INC/OBJECTS ./INC/UTILITY -I.
 INC = -I $(INC_PATH)
 
 SRC_PATH = ./SRC/
-SRC =	main.cpp \
-		DND.cpp \
-		Map.cpp \
-		Player.cpp
+SRC =	main.cpp 
+#\
+# 		DND.cpp \
+# 		Map.cpp \
+# 		Player.cpp
 
 SRCS = $(addprefix $(SRC_PATH), $(SRC))
 

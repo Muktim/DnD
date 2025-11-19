@@ -1,0 +1,11 @@
+{
+	"name": "testingMap",
+	"width": 10,
+	"height": 10,
+	"effect": 
+	[
+		{
+			"hp": 5, "hunger": -5
+		}
+	]
+}

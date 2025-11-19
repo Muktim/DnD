@@ -1,0 +1,12 @@
+{
+	"name": "player1",
+	"class": "wizard",
+	"subclass": "none",
+	
+	"stats":
+	[
+		{
+			"hp": 5, "hunger": -5
+		}
+	]
+}
